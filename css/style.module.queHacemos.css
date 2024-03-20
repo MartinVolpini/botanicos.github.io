@@ -1,0 +1,42 @@
+.queHacemos{
+    background-color: var(--whiteDark);
+    height: 30rem;
+}
+    .qh--conteiner{ 
+        box-sizing: content-box;
+        display: flex; flex-direction: row; 
+        align-items: center; justify-content: space-evenly;
+
+        height: 97%; width: 90%; 
+        border-radius: 10px; margin: 0rem auto; 
+
+        box-shadow: 0px 0px 20px -12px black ;
+        background-color: var( --white );
+    }
+        .qh--items{
+            display: flex; flex-direction: column; justify-content: space-evenly;
+            min-height: 20rem; width: 15rem; border-radius: 8px;
+
+            box-shadow: 0px 0px 20px 5px var( --greenLight ) ;
+            background-color: var( --white );
+        }
+            .ii--img{
+                display: inline-block;
+                filter: invert(64%) sepia(26%) saturate(1178%) hue-rotate(61deg) brightness(98%) contrast(100%); 
+                /* invert(0.4) sepia(1) hue-rotate(20deg) saturate(1000%) ; */
+                height: 5rem; width: 5rem;
+                margin: 1rem;
+    
+            }
+            .ii--titulo{
+                margin: 1rem;
+
+                color: var( --black );
+            }
+            .ii--text{
+                margin: 0.6rem; padding: 1rem;
+
+                line-height: 1.4rem;
+                font-size: 16px;
+                color: var( --gray );
+            }

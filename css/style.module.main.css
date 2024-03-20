@@ -1,0 +1,50 @@
+.main{
+    /* position: relative; */
+    /* box-sizing: border-box; */ 
+    overflow: hidden;
+    display: flex; flex-flow: row wrap; justify-content: center; align-content: center; align-items: center;
+    height: 100vh; width: 100%;
+    background-image: url("../pisctures/portada/portada3.jpg");
+    background-repeat: no-repeat; background-position: center; background-size: contain;
+}
+    .hd--content-position{
+        display: flex; flex-flow: column wrap; justify-content: center;
+        height: 80%; width: 45%;
+        background-color: aqua;
+    }
+        .hd--title{
+            height: 30%;
+            width: 100%;
+            padding: 1rem 7rem;
+            color: var( --whiteDarck );
+            font-size: 40px;
+            line-height: 36px;    
+        }
+
+    .main--content-cotizar{
+        /* position: absolute; */
+        height: 80%; width: 40%;
+        background-color: rgba(0, 0, 0, 0.321);
+        /* background: linear-gradient(rgb(5,7,12,0,75),rgb(5,7,12,0,75)); */
+    }
+
+    .hd--conteiner--btns{
+        border: 1px solid rgb(255, 111, 0);
+        display: flex; flex-flow: row wrap; justify-content: center;
+        width: 100%;
+    }
+    /* .hd--btn:nth-child(1){
+        background-color: var( --greenDarck2 ); color: var( --white );      
+    } */                                                                 /*! Agarrale la mano a este selector , y pone btn verde y btn blanco*/
+
+    .hd--btn{
+        box-sizing: border-box;
+        display: inline-block;
+        height: 3rem; min-width: 6rem; 
+        padding: 0.9rem 1.5rem; 
+        border: none; margin: 1rem 0.2rem 1rem 0.2rem;
+        border-radius: 5px;
+        font-size: 17px; letter-spacing: 0.5px;
+    } 
+
+    /*todo: A el titulo construile una caja contenedora para poder manejar mejor el posicionamineto */

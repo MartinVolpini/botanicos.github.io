@@ -1,0 +1,31 @@
+.clientesTrabajos{
+    height: 35rem; width: var( --width--conteiner ); margin: auto;
+    background-color:  var( --whiteDarck );
+}
+    .clt--conteiner--top{
+        display: block;
+      
+        height: 20%; width: 100%;
+        color: var(--black);
+        letter-spacing: 0.12rem;
+    }
+        .clt--title{
+            /* border: 2px solid black; */
+            display: flex; flex-direction: row; justify-content: flex-start; align-items: center;
+            height: 100%;
+            width: 100%;
+        }
+    .clt--conteiner{
+        border: 2px solid black;
+        display: flex; flex-flow: row wrap; justify-content: center; align-content: center; align-items: center;
+        height: 80%; width: 100%;
+    }
+        .clt--items{
+            border: 2px solid black;
+            height: 12rem; width: 12rem; 
+            margin: 1rem;
+           
+        }
+
+
+/*! Hace la cuadricula con gid para poder controlar mejor los cuadros, no tienen que ser tantos */
