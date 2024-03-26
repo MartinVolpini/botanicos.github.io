@@ -18,6 +18,8 @@
     .clt--conteiner{
         border: 2px solid black;
         display: flex; flex-flow: row wrap; justify-content: center; align-content: center; align-items: center;
+        /* display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr; */
+        
         height: 80%; width: 100%;
     }
         .clt--items{

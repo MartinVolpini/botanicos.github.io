@@ -1,25 +1,35 @@
 :root{
-    --greenDarck:       #005a37;
-    --greenDarck2:      #5b9f76;
+    --greenDarck:     #005a37;
+    --greenDarck2:    #5b9f76;
     --green:          #00ad42;
     --greenLight:     #7cda24;
     --greenLight2:    #5bc120;
-    /* --greenLightGradient: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%); */
+    --greenLightGradient: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+    --black:          #353535;
+    --grayDarck:      rgb(72 74 73) ;
     --gray:           #898f99;
+    --grayLight:      #efefef;
+    --grayLightOpacity:#efefefb3;
+    --whiteDarck:     #fcfcfc;
+    --white:          #ffffff;
+ 
     /* --silver:         #8395a7; */
     /* --silver-opacity: #8395a786; */
-    --grayLight:     #efefef;
-    --black:          #353535;
+   
+  
     /* --light-black:    #576574; */
-    --white:          #ffffff;
-    --whiteDarck:      #fcfcfc;
+
+
     /* --red:            #ff6b6b; */
     /* --purple:         #341f97; */
     --orange:         #fd9d24;
     /* --light-orange:   #feca57; */
     --color-opacity:  #3f5d7dbf;
 
-    --height--conteiner: 25rem;
+    --heightSmall--conteiner: 25rem;
+    --heightMedium--conteiner: 35rem;
+    --heightLarge--conteiner: 45rem;
+    --heightXXXLarge--conteiner: 105rem;
     --width--conteiner: 1200px
 } 
 
@@ -58,7 +68,7 @@ section{
 
 /*--------------     -----------      -------------        ---------------       -------------       -------------       -----------*/
 
-/*-----    ------------    -BOTON RESORTE     ---------------      ----------------*/
+/*-----    ------------    -BOTON WHATSAPP     ---------------      ----------------*/
 .body--btn--whatsapp--conteiner{
     /* box-sizing: border-box; */
     /* display: block;  transition: all 0.3s; */
