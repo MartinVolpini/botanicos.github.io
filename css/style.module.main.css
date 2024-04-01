@@ -1,0 +1,158 @@
+.main{
+    /* position: relative; */
+    /* box-sizing: border-box; */ 
+    overflow: hidden;
+    display: flex; flex-flow: row wrap; justify-content: center; align-content: center; align-items: center;
+    height: 100vh; width: 100%;
+    background-image: url("../pisctures/portada/portada1.jpg");
+    background-repeat: no-repeat; background-position: center; background-size: cover;
+}
+
+    .nav{
+      
+        box-sizing: border-box;
+        display: flex; flex-flow: row nowrap; justify-content: space-between; align-items: center;
+        height: 13%; width: 1440px; padding: 0rem 3rem; border:none; margin: 0%;
+        background-color: rgba(0, 0, 0, 0.414);
+
+          /* border-bottom: solid 1px orange; */
+    }
+        .nav-toggle{
+            box-sizing: border-box;
+            height: 100%; width: 10%; border: none;
+            background-color: rgba(0, 0, 0, 0);
+        }
+            .nav-toggle--item{
+                height: 3.3rem; border: none;
+                filter: invert(96%);
+            }
+
+        .nav--contenedor--logo{
+
+        }
+            .nav--logo{
+                color: var( --green );
+                font-size: 20px;
+            }
+        .nav-ul{
+            visibility: hidden;
+            border: solid 1px orange;
+            display: flex; flex-flow: row wrap; justify-content: center; align-items: center;
+            height: 100%;
+        }
+            .li-items{
+             
+            }
+                .nav-items{
+                    color: var( --whiteDarck )!important;
+                }
+
+
+    .hd--content-position{
+        display: flex; flex-flow: column wrap; justify-content: space-around;
+        height: 87%; width: 100%;
+        background-color: rgba(0, 0, 0, 0.414);
+    }
+        .hd--conteiner--title{
+            height: 30%;
+            width: 50%; 
+            margin: 0px auto;
+        }
+            .hd--title{
+                justify-self: flex-end;
+                height: 30%; width: 100%;
+                padding: 1rem 7rem;
+                color: var( --white )!important;
+                line-height: 45px!important;
+                font-size: 40px;
+                line-height: 36px;    
+            }
+    
+        .hd--conteiner--servicios{
+            /* border: 1px solid red;     */
+            box-sizing: border-box!important;
+            display: grid;  
+            grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr;
+            
+            grid-area: 
+                "hd--items--1 hd--items--2 hd--items--3 hd--items--4"
+                "hd--items--5 hd--items--6 hd--items--7 hd--items--8"
+                ;
+            height: 28%; width: 57%;
+            margin: 2% auto 0% auto;
+        }
+            .hd--items{
+            
+            
+                display: flex; flex-flow: column; justify-content: center;
+                /* box-sizing: content-box!important; */
+                height: 100%; width: 100%; 
+                padding: 1rem; margin: auto;
+                background-color: none; color: var( --whiteDarck );
+                font-size: 16px;
+                letter-spacing: 0.7px;
+            }
+
+            .hd--items--1, .hd--items--2, .hd--items--3, .hd--items--4{
+                border-bottom: 1px var(--grayDarck) solid;
+            }
+
+            .hd--items--1{
+                border-right: 1px var(--grayDarck) solid;
+            }
+            .hd--items--2 {
+                border-right: 1px var(--grayDarck) solid;
+            }
+            .hd--items--3{
+                border-right: 1px var(--grayDarck) solid;
+            }
+            .hd--items--5{
+                border-right: 1px var(--grayDarck) solid;
+            } 
+            .hd--items--6{
+                border-right: 1px var(--grayDarck) solid;
+            } 
+            .hd--items--7{
+                border-right: 1px var(--grayDarck) solid;
+            } 
+            .hd--items--8{
+                /* border-right: 1px var(--whiteDarck) solid;    */
+            }
+
+    .hd--conteiner--btns{
+        /* border: 1px solid rgb(255, 111, 0); */
+        
+        display: flex; flex-flow: row wrap; justify-content: center;
+        width: 100%;
+    }
+        .hd--btn-contacto{
+            background-color: var( --greenDarck2 ); color: var( --white );      
+        }          
+        .hd--btn-presupuesto{
+            background-color: var( --whiteDarck ); color: var( --green );      
+        }                                              
+
+        .hd--btn{
+            box-sizing: border-box;
+            display: inline-block;
+            height: 3rem; min-width: 6rem; 
+            padding: 0.9rem 1.5rem; 
+            border: none; margin: 1rem 0.2rem 1rem 0.2rem;
+            border-radius: 5px;
+            font-size: 16px; letter-spacing: 0.5px;
+        } 
+
+
+
+
+    .main--content-cotizar{
+        /* position: absolute; */
+        display: none;
+        height: 80%; width: 40%;
+        background-color: rgba(0, 0, 0, 0.321);
+        /* background: linear-gradient(rgb(5,7,12,0,75),rgb(5,7,12,0,75)); */
+    }
+
+
+
+    /*todo: A el titulo construile una caja contenedora para poder manejar mejor el posicionamineto */

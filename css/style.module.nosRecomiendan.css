@@ -1,0 +1,24 @@
+.recomiendan{
+    background-color: aquamarine;
+    display: flex; flex-direction: column; justify-content: center;
+}
+    .rmd--conteiner{
+    background-color: rgb(111, 137, 129);
+    display: flex; flex-flow: row wrap; justify-content: space-around; align-content: center;
+    height: 26rem; width: var( --width--conteiner ); margin: 0rem auto;
+
+    }
+        .rmd--items{
+            border: solid 1px blue;
+            display: flex; flex-flow: column wrap; justify-content: space-around; align-content: center;
+            height: 90%; width: 45%;
+        }
+        .rmd--items--img{
+            background-color: blue;
+            height: 17rem ; width: 17rem; 
+            border-radius: 50%;
+        }
+        .rmd--items--cite{
+            padding: 5rem;
+            font-size: 2rem; 
+        }
