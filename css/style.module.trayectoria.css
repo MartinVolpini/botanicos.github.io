@@ -1,0 +1,35 @@
+.trayectoria{
+    height: var(  --heightSmall--conteiner ); width: 100%;
+    background-image: url("../pisctures/portada/mSupr3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    .ty--conteiner{
+
+        height: 100%;
+        width: 100%; margin: auto;
+        background: rgba(0, 0, 0, 0.209) ;
+    }
+    .ty--row{
+        display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center;
+        height: 100%;
+        width: var(  --width--conteiner ); margin: auto;
+    }
+    .ty--items{
+        /* border: 1px solid red; */
+        display: flex; flex-flow: column; align-items: center; justify-content: space-evenly;
+        height: 10rem;
+    }
+        .ty--items--numbers{
+            color: var(  --orange );
+            font-size: 3rem;
+            font-weight: 600;
+        }
+        .ty--items--text{
+            padding-top: 1rem;
+            border-top: 1px solid var( --orange );
+            color: var(  --white );
+            font-size: 18px; letter-spacing: 0.8px;
+
+        }

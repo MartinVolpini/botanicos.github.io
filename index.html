@@ -11,9 +11,17 @@
     <link rel="stylesheet" href="css/style.module.quienesSomos.css">
     <link rel="stylesheet" href="css/style.module.nosRecomiendan.css">
     <link rel="stylesheet" href="css/style.module.trabajosClientes.css">
+    <link rel="stylesheet" href="css/style.module.trayectoria.css">
     <link rel="stylesheet" href="css/style.module.contacto.css">
 
+    <!-- FONTS GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
+
     <title>VerdeProfundo</title>
+
+   
 </head>
 <body>
     <main class="main" id="main">
@@ -110,6 +118,9 @@
     
     </section> -->
 
+
+   
+
     <section class="queHacemos">
 
         <div class="qh--conteiner--tilte">
@@ -200,16 +211,45 @@ PAISAJISMO. DISEÑO PARQUES Y JARDINES. ART-DECO. RENOVACIÓN Y MANTENIMIENTO DE
     <section class="quienesSomos">
 
     </section>
-<!--     ----------------         ---------------            ---------------           ----------------        -----------        ----->
+<!--     ----------------         ---------------      T R A B A J O S  ---------------           ----------------        -----------        ----->
+ 
     <section class="clientesTrabajos">
-        <div class="clt--conteiner--top">
-            <h2 class="clt--title">Algunos trabajos</h2>
+        
+        <div class="clt__conteiner__top">
+            <figcaption class="clt__subtitle">Experiencia en paisajismo</figcaption>
+            <h2 class="clt__title">Algunos trabajos</h2>
         </div>
-        <div class="clt--conteiner">
-            <div class="clt--items"></div><div class="clt--items"></div><div class="clt--items"></div><div class="clt--items"></div>
-            <div class="clt--items"></div><div class="clt--items"></div><div class="clt--items"></div><div class="clt--items"></div>
+        <figure class="clt__conteiner">
+            <div  alt="picture" class="clt__items"></div>
+            <div  alt="picture" class="clt__items"></div>
+            <div alt="picture" class="clt__items"></div> 
+            <div  alt="picture" class="clt__items"></div>
+            <div  alt="picture" class="clt__items"></div>
+            <!-- <img src="./pisctures/trabajos/6.jpg" alt="picture" class="clt__items"> -->
+        </figure>
+        <div class="clt__conteiner__bottom">
+          
+            <button class="clt__btn__plus volp--btn" id="clt__btn__plus">
+                <img
+                    class="clt__btn__plus__img" 
+                    src="./pisctures/logos basico/plus.png" />
+            </button>
         </div>
+    
     </section>
+    <section class="clientesTrabajos__plus">
+      
+        <figure class="clt__plus__conteiner">
+            <div  alt="picture" class="clt__items__plus"></div>
+            <div  alt="picture" class="clt__items__plus"></div>
+            <div alt="picture" class="clt__items__plus"></div> 
+            <div  alt="picture" class="clt__items__plus"></div>
+            <div  alt="picture" class="clt__items__plus"></div>
+            <!-- <img src="./pisctures/trabajos/6.jpg" alt="picture" class="clt__items"> -->
+        </figure>
+    </section>
+
+
 <!--     ----------------         ---------------            ---------------           ----------------        -----------        ----->
     <section class="recomiendan">
         <div class="rmd--conteiner">
@@ -219,48 +259,104 @@ PAISAJISMO. DISEÑO PARQUES Y JARDINES. ART-DECO. RENOVACIÓN Y MANTENIMIENTO DE
             </div>
         </div>
     </section>
-<!--     ----------------         ---------------            ---------------           ----------------        -----------        ----->
+
+<!--     ----------------         ---------------    T R A Y E C T O R I A       ---------------           ----------------        -----------        ----->
+<section class="trayectoria">
+ 
+    <div class="ty--conteiner">
+        <div class="ty--row">
+
+            <div class="ty--items">
+                <div class="ty--items--numbers">20.00</div>
+                <div class="ty--items--text">Obras Prarquizadas</div>
+            </div>
+            <div class="ty--items">
+                <div class="ty--items--numbers">23</div>
+                <div class="ty--items--text">Años de Experiancia</div>
+            </div>
+            <div class="ty--items">
+                <div class="ty--items--numbers">8.672</div>
+                <div class="ty--items--text">Sistema de Riego Instalados</div>
+            </div>
+            <div class="ty--items">
+                <div class="ty--items--numbers">13.540</div>
+                <div class="ty--items--text">Obras de Paisajismo</div>
+            </div>
+        </div>
+
+
+        </div>
+
+</section>
+<!--     ----------------         --------------- C O N T A C T O           ---------------           ----------------        -----------        ----->
+ 
     <section class="contacto">
         <div class="cnt--conteiner--top">
-            <input type="button" value="CONSULTANOS POR WHATSAPP" class="cnt--conteiner--top--btn volp--btn">
+            <a href="#" class="cnt--conteiner--top--btn volp--btn">
+                <img class="cnt--conteiner--top--btn--img" alt="imagen" src="./pisctures/contacto/whatsapp.png">
+                CONSULTANOS POR WHATSAPP
+            </a>
         </div>
        
         <div class="cnt--conteiner">
           
             <footer class="cnt--conteiner--footer">
+
                 <figure class="footer--items">
                     <img class="footer--img" alt="imagen" src="./pisctures/contacto/whatsapp.png">
-                    <figcaption class="footer--title">Tel / Whatsapp</figcaption>
-                    <small class="footer--text">11 - 5487-3301</small>
+                    <figcaption class="footer--title">11 - 5487-3301</figcaption>
+                    <!-- <small class="footer--text">11 - 5487-3301</small> -->
                 </figure>
                 <figure class="footer--items">
                     <img class="footer--img" alt="imagen" src="./pisctures/contacto/email (1).png">
-                    <figcaption class="footer--title">Email</figcaption>
-                    <small class="footer--text">verde@gmail.com</small>
+                    <figcaption class="footer--title">verde@gmail.com</figcaption>
+                    <!-- <small class="footer--text">verde@gmail.com</small> -->
                 </figure>
+                <figure class="footer--items">
+                    <img class="footer--img" alt="imagen" src="./pisctures/contacto/facebook1.png ">
+                    <img class="footer--img" alt="imagen" src="./pisctures/contacto/instagram1.png ">
+                    <figcaption class="footer--title">Seguinos</figcaption>
+                    <!-- <small class="footer--text">verde@gmail.com</small> -->
+                </figure>
+                <div class="footer--items--bottom">
+                    <p class="footer--bottom--text">Remodelacion de espaciós verdes</p>
+                </div>
+
             </footer>
+
+            <!-- ------------- F O R M --- ------------------- -->
+            
             <form class="cnt--conteiner--form" action="">
                 <h3 class="form--title" >Envianos tu consulta</h3>
-                <input class="form--inputs" type="name"  required placeholder="Nombre" >
-                <input class="form--inputs" type="tel"   required placeholder="Teléfono" >
-                <input class="form--inputs" type="email" required placeholder="Email" >
-                <input class="form--inputs" type="text"  required placeholder="Consulta" >
+                <input class="form--inputs" type="name"  required   placeholder="Nombre" >
+                <input class="form--inputs" type="tel"   required   placeholder="Teléfono" >
+                <input class="form--inputs" type="email" required   placeholder="Email" >
+                <textarea class="form--inputs textarea" name="Consulta" required   placeholder="Consulta" ></textarea>
                 <input class="form--inputs volp--btn" type="submit">
             </form>
         
         </div>
+
+   
     </section>
+
+    <footer ></footer>
 
 <!--     ----------------         ---------------            ---------------           ----------------        -----------        ----->
 
-    <div class="body--btn--whatsapp--conteiner">
+    <a 
+        class="body--btn--whatsapp--conteiner"
+        href="https://wa.me/541130578420?text=Que gusto que nos contactes. En breve nos estaremos comunicando!!" 
+        target="_blank"
+    >
         <button class="body--btn--whatsapp volp--btn" id="btn--whatsapp">
             <img class="body--btn--whatsapp--img" src="./pisctures/contacto/whatsapp.png" alt="boton whatsapp">
         </button>
-    </div>
+    </a>
 
 
-
+ 
     <script  defer src="./frontend.js/index.js"></script>
+    <script   src="./frontend.js/useDespliegueConteiner.js"></script>
 </body>
 </html>

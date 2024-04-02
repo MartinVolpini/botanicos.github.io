@@ -7,16 +7,16 @@
     --greenLightGradient: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
     --black:          #353535;
     --grayDarck:      rgb(72 74 73) ;
-    --gray:           #898f99;
+    --gray:           rgb(123 123 123);  
     --grayLight:      #efefef;
-    --grayLightOpacity:#efefefb3;
+    --grayLightOpacity:#efefefca;
     --whiteDarck:     #fcfcfc;
     --white:          #ffffff;
  
     /* --silver:         #8395a7; */
     /* --silver-opacity: #8395a786; */
    
-  
+    /* --gray:       rgb(123 123   #898f99;  */
     /* --light-black:    #576574; */
 
 
@@ -30,6 +30,7 @@
     --heightMedium--conteiner: 35rem;
     --heightLarge--conteiner: 45rem;
     --heightXXXLarge--conteiner: 105rem;
+
     --width--conteiner: 1200px
 } 
 
@@ -45,8 +46,14 @@
 
 *{  box-sizing: border-box;  
     padding: 0%; margin: 0%;
-    /* font-family:  Roboto, sans-serif; */
-    font-family: Open Sans, Arial, sans-serif; 
+    font-family:  Roboto, sans-serif;
+    /* font-family: Open Sans, Arial, sans-serif;  */
+
+  font-family: "Montserrat" ,  sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 100; */
+  font-style: normal;
+
 }
 body{ 
     max-width: 1440px;      
@@ -127,3 +134,9 @@ section{
     --wp--preset--font-size--large: 36px;
     --wp--preset--font-size--x-large: 42px;
 */
+
+footer{
+    display: block;
+    height: 9rem; width: 100%; margin: 0%;
+    background: var( --greenDarck ) ;
+}

@@ -155,20 +155,21 @@
         }
             .into--item{
                 height: 100%; width: 100%;
-                padding: 0%; margin: 0%;
+                padding: 0% ; margin: 0%;
                 background:none;
             }
                 .ii--titulo{
                 box-sizing: border-box!important;
                 display: flex; flex-direction: column; justify-content: center;
-                height: 26%; width: 90%;
-                padding: 0.4rem;
-                margin:  15px auto; 
+                height: 24%; width: 90%;
+                padding: 0.4rem 2rem;
+                margin:  20px auto; 
                 border-radius: 5px;
-
-                background-color: var(  --grayLightOpacity );    color: var( --black );
+                
+                background-color: var(  --grayLightOpacity );    color: black ;
                 font-size: 20px; font-weight: 400;
-                letter-spacing: 0.7px;
+                letter-spacing: 0.7px; 
+                line-height: 27px;
             }
             .ii--text{
                 display: none;
