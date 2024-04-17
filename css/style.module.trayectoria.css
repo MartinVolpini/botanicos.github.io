@@ -1,6 +1,10 @@
 .trayectoria{
     height: var(  --heightSmall--conteiner ); width: 100%;
     background-image: url("../pisctures/portada/mSupr3.jpg");
+    background-image: url("../pisctures/portada/cesped----------.jpg");
+    background-image: url("../pisctures/servicios/malezaSelva.jpg");
+    background-image: url("../pisctures/trabajos/24.jpg");
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,6 +14,7 @@
         height: 100%;
         width: 100%; margin: auto;
         background: rgba(0, 0, 0, 0.209) ;
+        background-color: rgba(0, 0, 0, 0.408);
     }
     .ty--row{
         display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center;

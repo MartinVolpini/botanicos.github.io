@@ -17,7 +17,7 @@ const btns = document.querySelectorAll(".hd--btn");
  const nav_burger = document.querySelector(".nav-toggle");
  const nav_items  = document.querySelectorAll(".nav-items");
  
- let watching = matchMedia("(max-width:820px)")
+ let watching = matchMedia("(max-width:860px)")
  let interruptor = true;
 
  nav_burger.addEventListener("click",(e)=>{

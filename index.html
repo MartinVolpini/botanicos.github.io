@@ -7,7 +7,7 @@
     <!--STYLES-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style.module.main.css">
-    <link rel="stylesheet" href="css/style.module.queHacemos.css">
+    <link rel="stylesheet" href="css/style.module.servicios.css">
     <link rel="stylesheet" href="css/style.module.quienesSomos.css">
     <link rel="stylesheet" href="css/style.module.nosRecomiendan.css">
     <link rel="stylesheet" href="css/style.module.trabajosClientes.css">
@@ -20,56 +20,93 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
+
+
     <title>VerdeProfundo</title>
 
    
 </head>
 <body>
-    <!-- <main class="main" id="main"> -->
+    <main class="main" id="main">
        
 <!-- ---- -----NAV ----  -->
 
       
 
-        <!-- <nav class="nav">
-            
-            <div class="nav--contenedor--logo">
-                <h2 class="nav--logo">Logo</h2>
+        <nav class="nav">
+            <div class="nav__row">
+
+                <div class="nav--contenedor--logo">
+                    <h2 class="nav--logo">L O G O</h2>
+                </div>
+                <ul class="nav-ul">
+                    <li class="li-items"><a href="#main"        class="nav-items nav-items-1">Home</a></li>
+                    <li class="li-items"><a href="#servicios"   class="nav-items">Servicios</a></li>
+                    <li class="li-items"><a href="#proyectos"      class="nav-items">Proyectos</a></li>
+                    <li class="li-items"><a href="#contacto"    class="nav-items">Contacto</a></li>
+                </ul>
+    
+                <!--ESTE ES EL ICONO DE AMBURGUESA  "-->
+    
+                <button 
+                    class="nav-toggle" 
+                    aria-label="Abrir menu"
+                >
+                    <img class="nav-toggle--item" src="./pisctures/logos basico/menu-burger.png"  > 
+                </button>
+
             </div>
-            <ul class="nav-ul">
-                <li class="li-items"><a href="#main"        class="nav-items nav-items-1">Home</a></li>
-                <li class="li-items"><a href="#servicios"   class="nav-items">Servicios</a></li>
-                <li class="li-items"><a href="#proyectos"      class="nav-items">Proyectos</a></li>
-                <li class="li-items"><a href="#contacto"    class="nav-items">Contacto</a></li>
-            </ul> -->
+           
 
-            <!--ESTE ES EL ICONO DE AMBURGUESA  "-->
-
-            <!-- <button 
-                class="nav-toggle" 
-                aria-label="Abrir menu"
-            >
-                <img class="nav-toggle--item" src="./pisctures/logos basico/menu-burger.png"  > 
-            </button>
-
-        </nav> -->
+        </nav>
 <!-- -------------      -------------    M A I N  --------------    -----------------    ---------------->
         
-        <!-- <section class="hd--content-position" id="main">
+        <section class="hd--content-position" id="main">
 
             <div class="hd--conteiner--title">
                 <h1 class="hd--title">
                     Diseño y Construcción
-                    de espacios verdes
+                    de Espacios Verdes
                 </h1>
             </div>
             
         
             <div class="hd--conteiner--servicios"> 
-                <div class="hd--items hd--items--1">Jardines Verticales</div><div class="hd--items hd--items--2" >Césped</div>
-                <div class="hd--items hd--items--3">Sistema de riego</div><div class="hd--items hd--items--4">Desmalezado</div>
-                <div class="hd--items hd--items--5">Fumigacion</div><div class="hd--items hd--items--6">Remodelación</div>
-                <div class="hd--items hd--items--7">Mantenimiento</div><div class="hd--items hd--items--8">Paisajismo</div>
+                <div class="hd--items hd--items--1">
+                    <!-- JARDINES VERTICALES -->
+                    Jardines Verticales
+                </div>
+                <div class="hd--items hd--items--2" >
+                    <!-- CÉSPED -->
+                    Césped
+                </div>
+                <div class="hd--items hd--items--3">
+                    <!-- SISTEMA DE RIEGO -->
+                    Sistema de Riego
+                </div>
+                <div class="hd--items hd--items--4">
+                    <!-- DESMALEZADO -->
+                    Desmalezado
+                </div>
+                <div class="hd--items hd--items--5">
+                    <!-- FUMIGACIÓN -->
+                    Fumigación
+                </div>
+                <div class="hd--items hd--items--6">
+                    <!-- PODA EN ALTURA -->
+                    Poda en Altura
+                </div>
+                <div class="hd--items hd--items--7">
+                    <!-- MANTENIMIENTO -->
+                    Mantenimiento
+                </div>
+                <div class="hd--items hd--items--8">
+                    <!-- PAISAJISMO -->
+                    Paisajismo
+                </div>
 
 
             </div>
@@ -77,10 +114,22 @@
 
             <div class="hd--conteiner--btns">
                 <a href="#contacto" class="hd--cont--btn " >
-                    <input type="button" class="hd--btn-contacto hd--btn volp--btn" value="PEDIR PRESUPUESTO">
+                    <input 
+                        type="button" 
+                        class="hd--btn-contacto hd--btn volp--btn" 
+                        value="PEDIR PRESUPUESTO"
+                    >
                 </a>
-                <a  href="#main" class="hd--cont--btn" >
-                    <input type="button" class="hd--btn-presupuesto hd--btn volp--btn" value="COTIZAR POR WHATSAPP">
+                <a  
+                    class="hd--cont--btn" 
+                    href="https://wa.me/541130578420?text= Quiero mas informacion!! " 
+                    target="_blank"
+                >
+                    <input 
+                        type="button" 
+                        class="hd--btn-presupuesto hd--btn volp--btn" 
+                        value="COTIZAR POR WHATSAPP"
+                    >
                 </a>
             </div>
            
@@ -88,13 +137,13 @@
         
         </section>
 
-        <section class="main--content-cotizar">
+        <!-- <section class="main--content-cotizar">
             <input type="button" class="hd--btn "  value=" Cotizar " >
         </section> -->
 
 
         
-    <!-- </main> -->
+    </main>
 
 <!--     ----------------         ---------------     S E R V I C I O S       ---------------           ----------------        -----------        ----->
                                                 
@@ -145,7 +194,7 @@ PAISAJISMO. DISEÑO PARQUES Y JARDINES. ART-DECO. RENOVACIÓN Y MANTENIMIENTO DE
             <div class=" qh--items fumigacion " >
                 <div class="into--item ">
                     <h4 class="ii--titulo">Fumigación</h4>
-                    <div class="ii--text">Controlde plagas</div>
+                    <div class="ii--text">Control de plagas</div>
                 </div>
             </div>
 
@@ -209,11 +258,12 @@ PAISAJISMO. DISEÑO PARQUES Y JARDINES. ART-DECO. RENOVACIÓN Y MANTENIMIENTO DE
                 <div class="into--item">
             
                     <h4 class="ii--titulo">Construcción</h4>
-                    <div class="ii--text">Albanileria</div>
+                    <div class="ii--text">Albañilería</div>
                 </div>
             </div>
 
         </div>
+
     </section>
 
 <!--     ----------------         ---------------            ---------------           ----------------        -----------        ----->
@@ -224,10 +274,10 @@ PAISAJISMO. DISEÑO PARQUES Y JARDINES. ART-DECO. RENOVACIÓN Y MANTENIMIENTO DE
 
 <!--     ----------------         ---------------      T R A B A J O S  ---------------           ----------------        -----------        ----->
  
-    <!-- <section class="clientesTrabajos" id="proyectos">
+    <section class="clientesTrabajos" id="proyectos">
         
         <div class="clt__conteiner__top">
-            <figcaption class="clt__subtitle">Experiencia en paisajismo</figcaption>
+            <figcaption class="clt__subtitle">Expertos en Jardines</figcaption>
             <h2 class="clt__title">Algunos trabajos</h2>
         </div>
         <figure class="clt__conteiner">
@@ -258,7 +308,7 @@ PAISAJISMO. DISEÑO PARQUES Y JARDINES. ART-DECO. RENOVACIÓN Y MANTENIMIENTO DE
             <div  alt="picture" class="clt__items__plus"></div>
      
         </figure>
-    </section> -->
+    </section>
 
 
 <!--     ----------------         ---------------            ---------------           ----------------        -----------        ----->
@@ -281,7 +331,7 @@ PAISAJISMO. DISEÑO PARQUES Y JARDINES. ART-DECO. RENOVACIÓN Y MANTENIMIENTO DE
 
             <div class="ty--items">
                 <div class="ty--items--numbers">20.00</div>
-                <div class="ty--items--text">Obras Prarquizadas</div>
+                <div class="ty--items--text">Obras de Parquización</div>
             </div>
             <div class="ty--items">
                 <div class="ty--items--numbers">23</div>
@@ -289,7 +339,7 @@ PAISAJISMO. DISEÑO PARQUES Y JARDINES. ART-DECO. RENOVACIÓN Y MANTENIMIENTO DE
             </div>
             <div class="ty--items">
                 <div class="ty--items--numbers">8.672</div>
-                <div class="ty--items--text">Sistema de Riego Instalados</div>
+                <div class="ty--items--text">Sistemas de Riego Instalados</div>
             </div>
             <div class="ty--items">
                 <div class="ty--items--numbers">13.540</div>
@@ -306,7 +356,11 @@ PAISAJISMO. DISEÑO PARQUES Y JARDINES. ART-DECO. RENOVACIÓN Y MANTENIMIENTO DE
  
     <!-- <section class="contacto" id="contacto">
         <div class="cnt--conteiner--top">
-            <a href="#" class="cnt--conteiner--top--btn volp--btn">
+            <a 
+                class="cnt--conteiner--top--btn volp--btn"
+                href="https://wa.me/541130578420?text= Quiero mas informacion!! " 
+                target="_blank"
+            >
                 <img class="cnt--conteiner--top--btn--img" alt="imagen" src="./pisctures/contacto/whatsapp.png">
                 CONSULTANOS POR WHATSAPP
             </a>
@@ -318,29 +372,29 @@ PAISAJISMO. DISEÑO PARQUES Y JARDINES. ART-DECO. RENOVACIÓN Y MANTENIMIENTO DE
 
                 <figure class="footer--items">
                     <img class="footer--img" alt="imagen" src="./pisctures/contacto/whatsapp.png">
-                    <figcaption class="footer--title">11 - 5487-3301</figcaption>
-                    <small class="footer--text">11 - 5487-3301</small>
-                </figure>
+                    <figcaption class="footer--title">11 - 5487-3301</figcaption> -->
+                    <!-- <small class="footer--text">11 - 5487-3301</small> -->
+                <!-- </figure>
                 <figure class="footer--items">
                     <img class="footer--img" alt="imagen" src="./pisctures/contacto/email (1).png">
-                    <figcaption class="footer--title">verde@gmail.com</figcaption>
-                    <small class="footer--text">verde@gmail.com</small>
-                </figure>
+                    <figcaption class="footer--title">verde@gmail.com</figcaption> -->
+                    <!-- <small class="footer--text">verde@gmail.com</small> -->
+                <!-- </figure>
                 <figure class="footer--items">
                     <img class="footer--img" alt="imagen" src="./pisctures/contacto/facebook1.png ">
                     <img class="footer--img" alt="imagen" src="./pisctures/contacto/instagram1.png ">
-                    <figcaption class="footer--title">Seguinos</figcaption>
-                    <small class="footer--text">verde@gmail.com</small>
-                </figure>
+                    <figcaption class="footer--title">Seguinos</figcaption> -->
+                    <!-- <small class="footer--text">verde@gmail.com</small> -->
+                <!-- </figure>
                 <div class="footer--items--bottom">
                     <p class="footer--bottom--text">Remodelacion de espaciós verdes</p>
                 </div>
 
-            </footer>
-        -->
+            </footer> -->
+       
             <!-- ------------- F O R M --- ------------------- -->
-<!-- 
-            <form class="cnt--conteiner--form" action="">
+
+            <!-- <form class="cnt--conteiner--form" action="">
                 <h3 class="form--title" >Envianos tu consulta</h3>
                 <input class="form--inputs" type="name"  required   placeholder="Nombre" >
                 <input class="form--inputs" type="tel"   required   placeholder="Teléfono" >
@@ -354,26 +408,31 @@ PAISAJISMO. DISEÑO PARQUES Y JARDINES. ART-DECO. RENOVACIÓN Y MANTENIMIENTO DE
    
     </section>
 
-    <footer ></footer> 
--->
+    <footer ></footer>  -->
+
 
 <!--     ----------------         ---------------            ---------------           ----------------        -----------        ----->
 
-    <!-- <a 
+    <a 
         class="body--btn--whatsapp--conteiner"
-        href="https://wa.me/541130578420?text=Que gusto que nos contactes. En breve nos estaremos comunicando!!" 
+        href="https://wa.me/541130578420?text= Quiero mas informacion!! " 
         target="_blank"
     >
         <button class="body--btn--whatsapp volp--btn" id="btn--whatsapp">
-            <img class="body--btn--whatsapp--img" src="./pisctures/contacto/whatsapp.png" alt="boton whatsapp">
+            <img 
+                class="body--btn--whatsapp--img" 
+                src="./pisctures/contacto/whatsapp.png" 
+                alt="boton whatsapp"
+            >
         </button>
-    </a> -->
+    </a>
 
 
  
-    <!-- <script  defer src="./frontend.js/index.js"></script>
+    <script  defer src="./frontend.js/index.js"></script>
     <script   src="./frontend.js/useDespliegueConteiner.js"></script>
-    <script   src="./frontend.js/useNavDesplegable.js "></script> -->
+    <script   src="./frontend.js/useNavDesplegable.js "></script>
+    <script   src="./frontend.js/useAnimacionWhatsApp.js "></script>
 
 </body>
 </html>

@@ -98,10 +98,11 @@
         height: 28rem; width: 45%;
 
         background-color: var( --whiteDarck ); 
+        /* background-color: var( --black );  */
         }
         .footer--items{
             /* box-sizing: border-box; */
-             border: 1px white solid;
+             /* border: 1px white solid; */
 
             display: flex; flex-flow: column nowrap; justify-content: space-around; align-items: center;
             min-height: 8rem; min-width: 8rem; margin: 0rem 1rem 0.5rem 1rem;
