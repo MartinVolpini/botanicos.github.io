@@ -893,8 +893,9 @@
 
 .clientesTrabajos{
 
-    height: auto; width: 100%; margin: 0px auto;
-
+    height: auto; width: 100%; 
+    margin: 0px auto;
+    background-color: brown;
 }
     .clt__conteiner__top{
         /* border: solid red 1px; */

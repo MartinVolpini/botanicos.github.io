@@ -95,7 +95,9 @@ section{
 .body--btn--whatsapp--conteiner{
     /* box-sizing: border-box; */
     /* display: block;  transition: all 0.3s; */
+    z-index: 80;
     position: fixed; bottom: 0.8rem; right: 1%;
+    
     height: 4.4rem; width: 4.4rem; border: none;
     /* padding:  0.3rem 0.6rem 0.5rem 0.6rem; */
     border-radius: 50%;
@@ -103,20 +105,26 @@ section{
 
 }
     .body--btn--whatsapp{
-        display: flex; flex-direction: column; justify-content: center; align-items: center;
+
         height: 100%; width: 100%; border: none; margin: 0%; 
+
+        display: flex; flex-direction: column; justify-content: center; align-items: center;
+
         border-radius: 50%;
         background-color: var(--green); 
     }
     
         .body--btn--whatsapp--img{
+          
             /* max-height: 100%; max-width: 100%;  */
             height: 2.7rem; width: 2.7rem; 
             margin: 0px; padding: 1px;
+
             filter: invert(96%);
             /* font-size: 16px; */
             /* filter: invert(64%) sepia(26%) saturate(1178%) hue-rotate(61deg) brightness(98%) contrast(100%);  */
         }
+
 @media (max-width: 680px){ .body--btn--whatsapp--conteiner{ display: none;} }
 
 
