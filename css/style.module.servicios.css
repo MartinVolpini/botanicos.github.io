@@ -245,7 +245,8 @@
     
 .queHacemos{
 
-    height: auto; width: 100%; margin: 0px auto;
+    height: auto; width: 100%; 
+    margin: 0px auto;
 
     /* background-color: aquamarine; */
 }
@@ -360,23 +361,23 @@
 }
     .qh--conteiner--tilte{
         height: 25rem; width: 90%;
-        padding: 2.5rem 0rem 0rem 0rem;
-        margin: 0% auto;
+        padding: 2.5rem 0rem 0rem 0rem; margin: 0% auto;
         box-sizing: border-box;
 
-        display: flex; flex-direction: column; justify-content: center;
+        display: flex; 
+        flex-direction: column; justify-content: center;
        
         
     }
         .qh--title{
             padding: 1rem;
-            color: var(--black);
+       
             letter-spacing: 1.5px;
         }
         .qh--text{
             padding: 1.5rem 5rem;
+
             line-height: 32px;
-            color: var(--gray);
             letter-spacing: 0.3px;
         }
 

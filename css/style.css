@@ -5,13 +5,16 @@
     --greenLight:     #7cda24;
     --greenLight2:    #5bc120;
     --greenLightGradient: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+
     --black:          #353535;
     --grayDarck:      rgb(72 74 73) ;
     --gray:           rgb(123 123 123);  
     --grayLight:      #efefef;
+
     --grayLightOpacity:#efefefd2;
     --opacity1:       rgba(72, 70, 70, 0.378);
     --opacity2:       rgba(0, 0, 0, 0.414);
+
     --whiteDarck:     #fcfcfc;
     --white:          #ffffff;
  
@@ -21,11 +24,16 @@
     /* --gray:       rgb(123 123   #898f99;  */
     /* --light-black:    #576574; */
 
-
     /* --red:            #ff6b6b; */
     /* --purple:         #341f97; */
-    --orange:         #fd9d24;
+
+    --orange2:         #fd9d24;
+    --orange1: hsl(40deg 78.5% 58.04%);
+    --orange:        hsl(42, 94%, 57%);
+
+
     /* --light-orange:   #feca57; */
+    
     --color-opacity:  #3f5d7dbf;
 
     --heightSmall--conteiner: 25rem;
