@@ -34,7 +34,7 @@
 
     /* --light-orange:   #feca57; */
     
-    --color-opacity:  #3f5d7dbf;
+    --color-opacity:  #3f5d7dbf ;
 
     --heightSmall--conteiner: 25rem;
     --heightMedium--conteiner: 35rem;
@@ -114,9 +114,11 @@ section{
 }
     .body--btn--whatsapp{
 
-        height: 100%; width: 100%; border: none; margin: 0%; 
+        height: 100%; width: 100%; 
+        border: none; margin: 0%; 
 
-        display: flex; flex-direction: column; justify-content: center; align-items: center;
+        display: flex; flex-direction: column; 
+        justify-content: center; align-items: center;
 
         border-radius: 50%;
         background-color: var(--green); 
@@ -172,6 +174,35 @@ section{
 
 footer{
     display: block;
-    height: 9rem; width: 100%; margin: 0%;
-    background: var( --greenDarck ) ;
+    height: 9rem; width: var(  --width--conteiner ); 
+    margin: 0% auto;
+
+    background: var( --black ) ;
+}
+
+@media( max-width: 1199px){
+    footer{
+        
+        width: 100%;
+   
+    }
+}
+/** IPAD PRO :/ */
+
+@media( max-width: 1024px) and (min-height: 1366px ) {
+    footer{
+        height: 20rem;
+        width: 100%;
+   
+    }
+}
+
+/** ASUS ZENBOOK FOLD :/ */
+
+@media( max-width: 853px ) and (min-height: 1280px ) {
+    footer{
+        height: 20rem;
+        width: 100%;
+   
+    }
 }
