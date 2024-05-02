@@ -1,40 +1,259 @@
-.trayectoria{
-    height: var(  --heightSmall--conteiner ); width: 100%;
-    background-image: url("../pisctures/portada/mSupr3.jpg");
-    background-image: url("../pisctures/portada/cesped----------.jpg");
-    background-image: url("../pisctures/servicios/malezaSelva.jpg");
+.trayectoria {
+    height: var(  --heightSmall--conteiner ); 
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    /* height: 20rem!important; */
+
+    /* background-image: url("../pisctures/portada/mSupr3.jpg"); */
+    /* background-image: url("../pisctures/portada/cesped----------.jpg"); */
+    /* background-image: url("../pisctures/servicios/malezaSelva.jpg"); */
     background-image: url("../pisctures/trabajos/24.jpg");
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
     .ty--conteiner{
 
-        height: 100%;
-        width: 100%; margin: auto;
+        height: 100%; width: 100%; 
+        margin: auto;
+    
         background: rgba(0, 0, 0, 0.209) ;
         background-color: rgba(0, 0, 0, 0.408);
+
     }
     .ty--row{
-        display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center;
-        height: 100%;
-        width: var(  --width--conteiner ); margin: auto;
+        height: 100%; width: var(  --width--conteiner );
+        margin: auto;
+
+        display: flex; flex-flow: row wrap; 
+        justify-content: space-around; align-items: center;
+
+        /* background-color: aqua; */
+        /* border: solid 3px yellow; */
+       
     }
     .ty--items{
         /* border: 1px solid red; */
-        display: flex; flex-flow: column; align-items: center; justify-content: space-evenly;
-        height: 10rem;
+        overflow: hidden;
+        box-sizing: border-box;
+        width: 12rem;
+
+        display: flex; flex-flow: column; align-items: center; 
+        justify-content: space-evenly;
+ 
     }
         .ty--items--numbers{
             color: var(  --orange );
             font-size: 3rem;
             font-weight: 600;
+            letter-spacing: 6px;
         }
         .ty--items--text{
             padding-top: 1rem;
+
             border-top: 1px solid var( --orange );
             color: var(  --white );
+            font-size: 20px; letter-spacing: 0.8px;
+
+        }
+
+
+/**------------------------------- @ M E D I A --------------------------------------------------------------------------*/
+
+
+@media( max-width: 1200px){
+
+.trayectoria {
+    height: var(  --heightSmall--conteiner ); width: 100%;
+    margin-top: 8rem;
+
+}
+
+    .ty--conteiner{
+
+        height: 100%; width: 100%; 
+        margin: 0rem auto;
+    
+
+    }
+    .ty--row{
+        height: 100%; width: 100%;
+        margin: 0rem auto;
+
+        display: flex; flex-flow: row wrap; 
+        justify-content: space-around; align-items: center;
+
+    
+        
+    }
+    .ty--items{
+        width: 12rem;
+
+        display: flex; flex-flow: column; align-items: center; 
+        justify-content: space-evenly;
+    
+    }
+        .ty--items--numbers{
+   
+            font-size: 3rem;
+            font-weight: 600;
+            letter-spacing: 6px;
+        }
+        .ty--items--text{
+            padding-top: 1rem;
+
+            font-size: 20px; letter-spacing: 0.8px;
+
+        }
+
+
+}
+
+@media( max-width: 870px){
+
+.trayectoria {
+    height: var(  --heightSmall--conteiner ); width: 100%;
+    margin-top: 2rem;
+
+}
+
+    .ty--conteiner{
+
+        height: 100%; width: 100%; 
+        margin: 0rem auto;
+    
+
+    }
+    .ty--row{
+        height: 100%; width: 100%;
+        margin: 0rem auto;
+
+        display: flex; flex-flow: row wrap; 
+        justify-content: space-around; 
+        align-items: center; align-content: space-evenly;
+        
+    }
+    .ty--items{
+        width: 50%;
+
+        display: flex; flex-flow: column; align-items: center; 
+        justify-content: space-evenly;
+    
+    }
+        .ty--items--numbers{
+    
+            font-size: 2.8rem;
+            font-weight: 600;
+            letter-spacing: 5px;
+        }
+        .ty--items--text{
+            padding-top: 1rem;
+
             font-size: 18px; letter-spacing: 0.8px;
 
         }
+
+    
+    }
+
+@media( max-width: 573px){
+
+.trayectoria {
+    height: var(  --heightSmall--conteiner ); width: 100%;
+  
+
+}
+
+    .ty--conteiner{
+
+        height: 100%; width: 100%; 
+        margin: 0rem auto;
+    
+
+    }
+    .ty--row{
+        height: 100%; width: 100%;
+        margin: 0rem auto;
+
+        display: flex; flex-flow: row wrap; 
+        justify-content: space-around; 
+        align-items: center; align-content: space-evenly;
+        
+    }
+    .ty--items{
+        height: 40%; margin: auto;
+
+        display: flex; flex-flow: column; align-items: center; 
+        justify-content: space-evenly;
+    
+    }
+        .ty--items--numbers{
+    
+            font-size: 36px;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+        .ty--items--text{
+            padding-top: 1rem;
+
+            font-size: 16px; letter-spacing: 0.8px;
+            line-height: 18px;
+
+        }
+
+    
+}
+
+@media( max-width: 408px){
+
+.trayectoria {
+    height: 30rem; width: 100%;
+
+}
+
+    .ty--conteiner{
+        height: 100%; width: 100%; 
+        margin: 0rem auto;
+    
+    }
+    .ty--row{
+        height: 100%; width: 100%;
+        margin: 0rem auto;
+
+        display: flex; flex-flow: column; 
+        justify-content: space-around; 
+        align-items: center; align-content: space-evenly;
+
+        /* border: solid 3px yellow; */
+        
+    }
+        .ty--items{
+            height: 6rem;
+            width: 100%; 
+            margin: 0rem auto;
+
+            display: flex; flex-flow: column; align-items: center; 
+            justify-content: space-evenly;
+
+            /* border: solid 3px rgb(255, 0, 204); */
+        
+        }
+            .ty--items--numbers{
+        
+                font-size: 32px;
+                font-weight: 600;
+                letter-spacing: 2px;
+            }
+            .ty--items--text{
+                padding-top: 1rem;
+
+                font-size: 16px; letter-spacing: 0.8px;
+                line-height: 18px;
+
+            }
+
+    
+}

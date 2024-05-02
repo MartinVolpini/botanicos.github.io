@@ -1,7 +1,6 @@
 .clientesTrabajos{
     /* height: 35rem;  */
-    height: auto;
-    width: var( --width--conteiner ); 
+    height: auto; width: var( --width--conteiner ); 
     margin: auto; padding: 2rem 0rem 2rem 0rem;
 
     background-color:  var( --whiteDarck );
@@ -285,10 +284,11 @@
 
                     transition: height 0.5s;
                 }
+
                 .clt__items__plus:nth-child(1){
                     grid-column: 2; grid-row: 1;
                 
-                    background-image: url("../pisctures/trabajos/6.jpg");
+                    background-image: url("../pisctures/trabajos/1.jpg");
                     background-repeat: no-repeat;
                     background-size: cover;
                     /* border-radius: 20% 0% 0% 20%;  */
@@ -296,7 +296,7 @@
                 .clt__items__plus:nth-child(2){
                     grid-column: 3; grid-row: 1;
                  
-                    background-image: url("../pisctures/trabajos/10.jpg");
+                    background-image: url("../pisctures/servicios/cyp2.jpg");
                     background-repeat: no-repeat;
                     background-size: cover;
                     /* border-radius: 0% 0% 0% 0%;  */
@@ -957,8 +957,11 @@
 
 .clientesTrabajos{
 
+    overflow: hidden;
     height: auto; width: 100%; 
-    margin: 0px auto;
+    margin: 0px auto; 
+
+    /* background-color: aquamarine; */
 
 }
     .clt__conteiner__top{
