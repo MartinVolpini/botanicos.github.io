@@ -50,7 +50,7 @@ function hacerCambio(){
         despliegueConteiner();
 
 
-        if(valor2 == "clt__plus__conteiner__none" ){
+        if( valor2 == "clt__plus__conteiner__none" ){
 
             // console.log("SUBIF TOP", subConteiner , conteiner )
             despliegueSubConteiner();
@@ -65,7 +65,7 @@ function hacerCambio(){
         setTimeout(()=>{
             repliegueConteiner();
             // console.log("ELSE BOTTOM", subConteiner , conteiner );
-        }, 2490)
+        }, 2090)
     }
 }
 

@@ -94,7 +94,7 @@
             top: 0; */
             /* z-index: 500; */
             box-sizing: border-box;
-            height: 100%!important;     width: 32rem;
+            height: 100%!important; width: 32rem;
             margin: 0;
             padding: 0;
             
@@ -134,9 +134,12 @@
 
     .hd--content-position{ 
         height: 89%; width: 100%;
-        display: flex; flex-flow: column wrap; justify-content: center;
 
         background-color: var( --opacity1 );
+
+        display: flex; flex-flow: column wrap; justify-content: center;
+
+        
         
         /* background-color: aqua; */
     }
@@ -155,13 +158,15 @@
                 height: 100%; width: 100%; margin: 0% ;
                 padding: 1rem 6rem;
 
-                display: flex; flex-flow: column wrap; 
-                justify-content: center; align-items: center; align-content: center;
-
                 color: var( --white )!important;
                 line-height: 45px!important;
                 font-size: 40px;
                 letter-spacing: 1px;
+
+                display: flex; flex-flow: column wrap; 
+                justify-content: center; align-items: center; align-content: center;
+
+              
                 /* background-color: rgb(56, 183, 24); */
             }
 
@@ -169,7 +174,10 @@
 
         .hd--conteiner--servicios{ 
             /* border: 1px solid red;     */
+            height: 28%; width: 57%;
+            margin: 2% auto -1rem auto;
             box-sizing: border-box!important;
+
             display: grid;  
             grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr;
             
@@ -177,8 +185,7 @@
                 "hd--items--1 hd--items--2 hd--items--3 hd--items--4"
                 "hd--items--5 hd--items--6 hd--items--7 hd--items--8"
                 ;
-            height: 28%; width: 57%;
-            margin: 2% auto -1rem auto;
+       
         }
             .hd--items{
             
@@ -226,7 +233,9 @@
         /* border: 1px solid rgb(255, 111, 0); */
         width: 100%;
         margin-top: 2rem;
-        display: flex; flex-flow: row wrap; justify-content: center;
+
+        display: flex; flex-flow: row wrap; 
+        justify-content: center;
        
     }
         .hd--btn-contacto{
