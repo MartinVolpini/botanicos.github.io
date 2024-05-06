@@ -34,15 +34,17 @@
             font-size: 18px; 
             font-weight: bold; 
             letter-spacing: 0.118rem;
-         
+           
         }
             .cnt--conteiner--top--btn--img{
                 /* border: 1px black solid; */
                 height: 1.6rem; width: 1.6rem; 
                 margin: 0rem  0.6rem;
 
-                filter: invert(96%);
+                filter: invert(96%); 
+               
             }
+   
 
 /*-----------------     ---------- S U B   C O N T E I N E R         --------------------      ---------------------        -----*/
 
@@ -174,8 +176,9 @@
 
         /* I T E M S */
         .footer--items{
-            box-sizing: border-box;
              /* border: 1px rgb(212, 31, 31) solid; */
+            box-sizing: border-box;
+            
              min-height: 8rem; min-width: 8rem;
              padding: 0%; margin: 0rem auto 0.5rem auto;
 
@@ -213,36 +216,60 @@
             
                 /* border: 1px rgb(200, 25, 185) solid; */
 
-            display: flex; flex-flow: column nowrap; 
+            display: flex; flex-flow: column ; 
             justify-content: flex-start; align-items: center;
             
 
         }
             .footer__items__row__imgs{
                 width: 100%;
-                padding: 0%; margin: 0%;
+                padding: 0%; margin: -10% 0rem 1rem 0rem;  
 
                 display: flex; flex-flow: row nowrap; 
-                justify-content: space-evenly; align-items: center;
+                justify-content: space-evenly; 
+                align-items: center!important; align-content: center;
 
-                /* background-color: cadetblue; */
+                /* background-color: rgb(154, 95, 160); */
             }
-                .footer--items:nth-child(3) .footer--img {
-            
-                    height: 2.5rem; width: 2.5rem; 
-                    margin-bottom: 1.5rem ;
+               
 
-                    /* background-color: rgb(42, 48, 165); */
+            .footer__items__link{
+                height: auto; 
+                /* width: auto; */
+                /* height: 50%;  */
+                width: 50%; 
+                padding: 10% 0rem 0rem 0rem; margin: 0%;
+  
+                display: flex; flex-flow: column ; 
+                justify-content: center; align-items: center; align-content: center;
+                /* border: solid 2px  aqua; */
+
+                border-radius: 5px;
+
+                &:hover{  
+                    background-color: rgba(0, 0, 0, 0.606);
+                   
+                box-shadow: 7px 7px  30px 3px  rgba(0, 0, 0, 0.566) ,
+                -7px -7px  30px 3px  rgba(0, 0, 0, 0.566) ;       
                 }
+            }
+            .footer__items__link:hover .footer--img {
+                    /* background-color: rgb(42, 48, 165); */
+                        filter: invert(95%); 
+                }
+
             .footer--items:nth-child(3) .footer--title {
                 /* height: 1.5rem; width: 1.5rem; */
                 width:  100%;
-                margin: 0rem 0rem;
+                margin: -1rem 0rem 0rem 0rem ;
 
                 /* background-color: brown; */
 
             }
 
+           
+    
+   
 
 
 /*?--------------------------  R E S P O S I V E -----------------------------------------------------------*/
@@ -428,7 +455,8 @@
             }
 
 
-        /** R E D E S */
+        /** R E D E S */ 
+
         .footer--items:nth-child(3){
             
                 /* border: 1px rgb(200, 25, 185) solid; */
@@ -450,14 +478,14 @@
                 .footer--items:nth-child(3) .footer--img {
             
                     height: 2.5rem; width: 2.5rem; 
-                    margin-bottom: 1.5rem ;
+                    margin-bottom: 1rem ;
 
                     /* background-color: rgb(42, 48, 165); */
                 }
             .footer--items:nth-child(3) .footer--title {
                 /* height: 1.5rem; width: 1.5rem; */
                 width:  100%;
-                margin: 0rem 0rem;
+                margin: 0rem 0rem 0rem 0rem;
 
                 /* background-color: brown; */
 
@@ -802,6 +830,7 @@
 
 
         /** R E D E S */
+
         .footer--items:nth-child(3){
             
                 /* border: 1px rgb(200, 25, 185) solid; */
@@ -813,27 +842,30 @@
         }
             .footer__items__row__imgs{
                 width: 100%;
-                padding: 0%; margin: 0%;
+                padding: 0%; margin: -10% 0rem 0rem 0rem;  
+                margin-bottom: 0rem ;
 
                 display: flex; flex-flow: row nowrap; 
                 justify-content: space-evenly; align-items: center;
 
                 /* background-color: cadetblue; */
             }
+            .footer__items__link{
+                width: 40%;
+                 /* border: solid black; */
+            }
                 .footer--items:nth-child(3) .footer--img {
-            
-                    height: 2.2rem; width: 2.2rem; 
-                    margin-bottom: 1rem ;
-
+                    height: 2.2rem; width: 2.2rem;   
+                 
                     /* background-color: rgb(42, 48, 165); */
                 }
-            .footer--items:nth-child(3) .footer--title {
-                width:  100%;
-                margin: -0.4rem 0rem -0.4rem 0rem;
+                .footer--items:nth-child(3) .footer--title {
+                    width:  100%;
+                    margin: -0.4rem 0rem 0rem 0rem;
 
-                /* background-color: brown; */
+                    /* background-color: brown; */
 
-            }
+                }
 
 }
 
@@ -902,7 +934,7 @@
         }
             .footer__items__row__imgs{
                 width: 100%;
-                padding: 0%; margin: 0%;
+                padding: 0%; margin: -10% 0rem 0rem 0rem;
 
                 display: flex; flex-flow: row nowrap; 
                 justify-content: center; align-items: center;
@@ -1051,7 +1083,8 @@
         /* background-color: var( --black );  */
     }
 
-        /* I T E M S */
+        /* I T E M S */ 
+
         .footer--items{
             /* border: 1px rgb(212, 31, 31) solid; */
 
@@ -1076,6 +1109,7 @@
 
 
         /** R E D E S */
+
         .footer--items:nth-child(3){
             
                 /* border: 1px rgb(200, 25, 185) solid; */
@@ -1087,12 +1121,17 @@
         }
             .footer__items__row__imgs{
                 width: 100%;
-                padding: 0%; margin: 0%;
+                padding: 0%; margin: -10% 0rem 0rem 0rem;
 
                 display: flex; flex-flow: row nowrap; 
                 justify-content: center; align-items: center;
 
                 /* background-color: cadetblue; */
+            }
+
+            .footer__items__link{
+                width: 40%; 
+
             }
                 .footer--items:nth-child(3) .footer--img {
             

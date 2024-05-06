@@ -263,12 +263,15 @@
 
 /*----------------------     -------------------------      --------------------------      ------------------------------------------*/
 
-@media (min-width: 1484px) and (min-height: 500px) {    
-
+@media (min-width: 1484px) and (max-height: 600px) {    
+.main{
+    /* position: relative; */
+    height: 35rem!important; width: 100%!important;
+}
 .main::after{
 
     position: absolute; 
-    bottom: -5.5%!important; left: 50%;
+    top: 33rem!important; left: 50%;
     height: 3.9rem; width: 3.9px;
     
 }
@@ -312,7 +315,9 @@
 
         .hd--conteiner--title{
             height: 30%;
-            width: 60%; 
+            /* width: 70%; */
+            width: 1440px; 
+            padding: 0rem 16rem ;
             margin: -2rem auto 1rem auto;
             
             /* background-color: rgb(183, 24, 141); */
@@ -336,7 +341,10 @@
         .hd--conteiner--servicios{ 
             /* border: 1px solid red;     */
 
-            height: 23%; width: 70%;
+            height: 23%; 
+            /* width: 70%; */
+            width: 1440px;
+            padding: 0rem 10rem;
             margin: 0% auto 2.5rem auto;
                 
         }
@@ -355,10 +363,11 @@
 
     .hd--conteiner--btns{
         /* border: 1px solid rgb(255, 111, 0); */
-        width: 100%;
-        margin-top: 0rem;
+        width: 1440px;
+        margin: 0rem auto;
         
-        display: flex; flex-flow: row wrap; justify-content: center;
+        display: flex; 
+        flex-flow: row wrap; justify-content: center;
         
     }
         .hd--btn{
@@ -421,7 +430,8 @@
 
         .hd--conteiner--title{
             height: 30%;
-            width: 60%; 
+            width: 1440px;
+            padding: 0rem 15rem; 
             margin: -4rem auto 1rem auto;
             
             /* background-color: rgb(183, 24, 141); */
@@ -434,7 +444,7 @@
                 display: flex; flex-flow: column wrap; 
                 justify-content: center; align-items: center; align-content: center;
 
-                line-height: 50px!important;
+                line-height: 53px!important;
                 font-size: 43px;
                 letter-spacing: 1.5px;
                 /* background-color: rgb(56, 183, 24); */
@@ -445,7 +455,8 @@
         .hd--conteiner--servicios{ 
             /* border: 1px solid red;     */
 
-            height: 23%; width: 75%;
+            height: 23%; width: 1440px;
+            padding: 0rem 5rem;
             margin: 0% auto 3rem auto;
                 
         }
@@ -464,11 +475,9 @@
 
     .hd--conteiner--btns{
         /* border: 1px solid rgb(255, 111, 0); */
-        width: 100%;
-        margin-top: 0rem;
-        
-        display: flex; flex-flow: row wrap; justify-content: center;
-        
+        width: 1440px;
+        margin: 0rem auto;   
+  
     }
         .hd--btn{
             height: 2.8rem; width: 15.5rem; 
@@ -497,11 +506,6 @@
         padding: 0rem 0rem ; 
         border:none; margin: 0% 0% 0% 0%;
         
-        box-sizing: border-box;
-        
-        display: flex; flex-flow: row nowrap; 
-        justify-content: space-between ; align-items: center;
-        
         /* background-color: chartreuse; */
         
     }
@@ -521,7 +525,6 @@
 
     .hd--content-position{ 
         height: 100%; width: 100%;
-        display: flex; flex-flow: column wrap; justify-content: center;
     
         /* background-color: aqua; */
     }
@@ -530,8 +533,9 @@
 
         .hd--conteiner--title{
             height: 30%;
-            width: 75%; 
-            margin: -6rem auto 2rem auto;
+            width: 1440px;
+            padding: 0rem 15rem!important; 
+            margin: -6rem auto 1rem auto;
             
             /* background-color: rgb(183, 24, 141); */
         }
@@ -540,10 +544,8 @@
                 height: 100%; width: 100%; margin: 0%;
                 padding: 1rem 6rem;
 
-                display: flex; flex-flow: column wrap; 
-                justify-content: center; align-items: center; align-content: center;
 
-                line-height: 69px!important;
+                line-height: 60px!important;
                 font-size: 50px;
                 letter-spacing: 1.5px;
                 /* background-color: rgb(56, 183, 24); */
@@ -554,7 +556,8 @@
         .hd--conteiner--servicios{ 
             /* border: 1px solid red;     */
 
-            height: 23%; width: 75%;
+            height: 23%; width: 1440px;
+            padding: 0rem 5rem;
             margin: 0% auto 3rem auto;
                 
         }
@@ -573,16 +576,14 @@
 
     .hd--conteiner--btns{
         /* border: 1px solid rgb(255, 111, 0); */
-        width: 100%;
-        margin-top: 0rem;
-        
-        display: flex; flex-flow: row wrap; justify-content: center;
+        width: 1440px;
+        margin: 2rem auto 0rem auto;
         
     }
         .hd--btn{
             height: 3rem; width: 15.5rem; 
             /* padding: 0.9rem 1.5rem;  */
-                margin: 1rem 0.3rem ;
+                margin: 1rem 0.3rem  ;
     
             font-size: 16px; letter-spacing: 0.5px;
         } 
@@ -605,12 +606,7 @@
         height: 100%; width: 1440px ; 
         padding: 0rem 0rem ; 
         border:none; margin: 0% 0% 0% 0%;
-        
-        box-sizing: border-box;
-        
-        display: flex; flex-flow: row nowrap; 
-        justify-content: space-between ; align-items: center;
-        
+   
         /* background-color: chartreuse; */
         
     }
@@ -630,7 +626,6 @@
 
     .hd--content-position{ 
         height: 100%; width: 100%;
-        display: flex; flex-flow: column wrap; justify-content: center;
     
         /* background-color: aqua; */
     }
@@ -639,7 +634,8 @@
 
         .hd--conteiner--title{
             height: 30%;
-            width: 68%!important; 
+            width: 1440px; 
+            padding: 0rem 15rem;
             margin: -6rem auto 2rem auto;
             
             /* background-color: rgb(183, 24, 141); */
@@ -648,9 +644,6 @@
                 /* justify-self: flex-end; */
                 height: 100%; width: 100%; margin: 0%;
                 padding: 1rem 6rem;
-
-                display: flex; flex-flow: column wrap; 
-                justify-content: center; align-items: center; align-content: center;
 
                 line-height: 69px!important;
                 font-size: 60px!important;
@@ -663,7 +656,8 @@
         .hd--conteiner--servicios{ 
             /* border: 1px solid red;     */
 
-            height: 23%; width: 75%;
+            height: 23%; width: 1440px;
+            padding: 0rem 5rem;
             margin: 0% auto 3rem auto;
                 
         }
@@ -671,8 +665,6 @@
                 height: 100%; width: 100%; 
                 padding: 0rem 1rem 0rem 1rem; margin: auto; 
                 border-width: 2px;
-
-                display: flex; flex-flow: column; justify-content: center;
                 
                 font-size: 22px;
                 letter-spacing: 0.7px;
@@ -683,14 +675,12 @@
     .hd--conteiner--btns{
         /* border: 1px solid rgb(255, 111, 0); */
         width: 100%;
-        margin-top: 0rem;
-        
-        display: flex; flex-flow: row wrap; justify-content: center;
+        margin: 0rem auto;
+
         
     }
         .hd--btn{
-            box-sizing: border-box;
-            display: inline-block;
+           
             height: 3.4rem; width: 17.5rem; 
             /* padding: 0.9rem 1.5rem;  */
             border: none; margin: 1rem 0.5rem ;
@@ -702,109 +692,39 @@
 
 }
 
+@media (min-width: 1484px) and (min-height: 1050px) {
 
-
-@media (min-width: 1584px) and (min-height: 700px) {
-.main{
-    /* position: relative; */
-    height: 100vh; width: 100%!important;
-    box-sizing: border-box; 
-    overflow: hidden;
-
-
-}
 .main::after{
 
     position: absolute; 
-    bottom: -3.5%!important; left: 50%;
-    height: 4rem!important; width: 4.5px;
+    bottom: -2.8%!important; left: 50%;
+    height: 5rem; width: 5px;
     
 }
-    .nav{
-        position: relative; 
-        top: 0%;                                                
-        left: 0%;
-        
-        height: 5.5rem; width: 100%; 
-        padding: 0rem 0rem; border:none; margin: 0% 0% 0% 0%;
-
-        box-sizing: border-box;
-        display: flex; flex-flow: row nowrap; 
-        justify-content: center ; align-items: center;
-
     
-        /* background-color: rgb(171, 6, 146); */
-            /* border-bottom: solid 1px orange; */
-    }
     .nav__row{
         box-sizing: border-box;
-        height: 100%; width: 1440px; 
-        padding: 0rem 2rem 0rem 3rem; 
+        height: 100%; width: 1440px ; 
+        padding: 0rem 0rem ; 
         border:none; margin: 0% 0% 0% 0%;
-        
-        box-sizing: border-box;
-        
-        display: flex; flex-flow: row nowrap; 
-        justify-content: space-between ; align-items: center;
-        
     
         /* background-color: chartreuse; */
+        
     }
+                
+        .nav-items{
+            height: 100%; width: 100%; 
+            /* margin: 5px 5px 5px 5px; */
+
         
-
-        .nav--contenedor--logo{
-        
-            height: 100%; width: 6rem;
-            /* background-color: rgb(226, 43, 43); */
+            /* background-color: rgb(255, 247, 0); */
+            font-size: 22px!important;
+            letter-spacing: 1.2px;
         }
-            .nav--logo{
-                height: 100%; width: 100%;
-
-                display: flex; flex-direction: column; 
-                justify-content: center; align-items: center; align-content: center;
-                
-                font-size: 26px;
-                
-            }
-        .nav-ul{
-
-            box-sizing: border-box;
-            height: 100%!important;  width: 32rem;
-            margin: 0rem;
-            padding: 0rem 2rem 0rem 0rem;
-            
-            display: flex; flex-flow: row wrap; 
-            justify-content: space-between; align-items: center; align-content: center;
-
-            
-            /* background-color: aqua; */
-        }
-            .li-items{
-
-                display: flex; flex-flow: column; 
-                justify-content: center; align-items: center; align-content: center;
-
-                height: 100%; width: 15%; 
-                /* background-color: rgb(255, 81, 0); */
-            }
-                .nav-items{
-                    height: 100%; width: 100%; 
-                    /* margin: 5px 5px 5px 5px; */
-
-                    display: flex; flex-direction: column; 
-                    justify-content: center; align-items: center;
-                
-
-                    color: var( --grayLight )!important;
-                    /* background-color: rgb(255, 247, 0); */
-                    font-size: 16px!important;
-                    letter-spacing: 1.2px;
-                }
 /**----------------------------- P O R T A D A -----------------------*/
 
     .hd--content-position{ 
-        height: 94%; width: 100%;
-        display: flex; flex-flow: column wrap; justify-content: center;
+        height: 100%; width: 100%;
     
         /* background-color: aqua; */
     }
@@ -814,21 +734,18 @@
         .hd--conteiner--title{
             height: 30%;
             width: 1440px; 
+            padding: 0rem 10rem;
             margin: -6rem auto 2rem auto;
             
             /* background-color: rgb(183, 24, 141); */
         }
             .hd--title{
                 /* justify-self: flex-end; */
-                height: 100%; width: 68%!important; 
-                margin: 0% auto!important; padding: 1rem 6rem;
+                height: 100%; width: 100%; margin: 0%;
+                padding: 1rem 0rem;
 
-                display: flex; flex-flow: column wrap; 
-                justify-content: center; align-items: center; align-content: center;
-
-                color: var( --white )!important;
-                line-height: 69px!important;
-                font-size: 50px;
+                line-height: 90px!important;
+                font-size: 78px!important;
                 letter-spacing: 1.5px;
                 /* background-color: rgb(56, 183, 24); */
             }
@@ -838,18 +755,17 @@
         .hd--conteiner--servicios{ 
             /* border: 1px solid red;     */
 
-            height: 23%;  width: 1440px; 
-            margin: 0% auto 3rem auto;
+            height: 23%; width: 1440px;
+            padding: 0rem 5rem;
+            margin: 0% auto 5rem auto;
                 
         }
             .hd--items{
                 height: 100%; width: 100%; 
                 padding: 0rem 1rem 0rem 1rem; margin: auto; 
                 border-width: 2px;
-
-                display: flex; flex-flow: column; justify-content: center;
                 
-                font-size: 20px;
+                font-size: 24px;
                 letter-spacing: 0.7px;
             }
 
@@ -857,140 +773,49 @@
 
     .hd--conteiner--btns{
         /* border: 1px solid rgb(255, 111, 0); */
-        width: 1440px; 
+        width: 100%;
         margin: 0rem auto;
-        
-        display: flex; flex-flow: row wrap; justify-content: center;
+
         
     }
-        .hd--btn-contacto{
-            border: none; 
-        }          
-        .hd--btn-presupuesto{
-            border: none; 
-        }                                              
-
         .hd--btn{
-            box-sizing: border-box;
-            display: inline-block;
-            height: 3rem; width: 17.9rem; 
+            
+            height: 4rem; width: 22.5rem; 
             /* padding: 0.9rem 1.5rem;  */
-            border: none; margin: 1rem 0.5rem 1rem 0.5rem;
+            border: none; margin: 1rem 1.1rem ;
             border-radius: 5px;
-
-            font-size: 18px; letter-spacing: 0.5px;
+            font-size: 22px; letter-spacing: 0.5px;
         } 
 
+                                                    
 
 }
 
-@media (min-width: 1584px) and (min-height: 880px) {
-.main{
-    /* position: relative; */
-    height: 100vh; width: 100%!important;
-    box-sizing: border-box; 
-    overflow: hidden;
+@media (min-width: 1484px) and (min-height: 1300px) {
 
-    display: flex; flex-flow: column; 
-    justify-content: center; align-content: center; align-items: center;
-
-
-}
 .main::after{
 
     position: absolute; 
-    bottom: -4%!important;                      /*!NO LO LEE */
-    left: 50%;
-    height: 5rem; width: 4.3px!important;
+    bottom: -2.8%!important; left: 50%;
+    height: 5rem; width: 5px;
     
 }
-    .nav{
-        position: relative; 
-        top: 0%;                                                
-        left: 0%;
-        
-        height: 5.5rem; width: 100%; 
-        padding: 0rem 0rem; border:none; margin: 0% 0% 0% 0%;
+    
+  
+                
+        .nav-items{
+            height: 100%; width: 100%; 
+            /* margin: 5px 5px 5px 5px; */
 
-        box-sizing: border-box;
-        display: flex; flex-flow: row nowrap; 
-        justify-content: center ; align-items: center;
-
-        /* background-color: var( --greenLight2 );
-        background-color: var( --black );
-        background-color: var( --gray ); */
         
-        /* background-color: rgb(171, 6, 146); */
-           
-    }
-    .nav__row{
-        box-sizing: border-box;
-        height: 100%; width: 1440px; 
-        padding: 0rem 2rem 0rem 3rem; 
-        border:none; margin: 0% 0% 0% 0%;
-        
-        box-sizing: border-box;
-        
-        display: flex; flex-flow: row nowrap; 
-        justify-content: space-between ; align-items: center;
-        
-        /* border-bottom: solid 3px var( --greenLight2 );  */
-        /* background-color: chartreuse; */
-    }
-        
-
-        .nav--contenedor--logo{
-        
-            height: 100%; width: 6rem;
-            /* background-color: rgb(226, 43, 43); */
+            /* background-color: rgb(255, 247, 0); */
+            font-size: 22px!important;
+            letter-spacing: 1.2px;
         }
-            .nav--logo{
-                height: 100%; width: 100%;
-
-                display: flex; flex-direction: column; 
-                justify-content: center; align-items: center; align-content: center;
-                
-                font-size: 26px;
-                
-            }
-        .nav-ul{
-
-            box-sizing: border-box;
-            height: 100%!important;  width: 32rem;
-            margin: 0rem;
-            padding: 0rem 2rem 0rem 0rem;
-            
-            display: flex; flex-flow: row wrap; 
-            justify-content: space-between; align-items: center; align-content: center;
-
-            
-            /* background-color: aqua; */
-        }
-            .li-items{
-
-                display: flex; flex-flow: column; 
-                justify-content: center; align-items: center; align-content: center;
-
-                height: 100%; width: 15%; 
-                /* background-color: rgb(255, 81, 0); */
-            }
-                .nav-items{
-                    height: 100%; width: 100%; 
-                    /* margin: 5px 5px 5px 5px; */
-
-                    display: flex; flex-direction: column; 
-                    justify-content: center; align-items: center;
-                
-
-                    /* background-color: rgb(255, 247, 0); */
-                    font-size: 16px;
-                    letter-spacing: 1.2px;
-                }
 /**----------------------------- P O R T A D A -----------------------*/
 
     .hd--content-position{ 
-        height: 94%; width: 100%;
-        display: flex; flex-flow: column wrap; justify-content: center;
+        height: 100%; width: 100%;
     
         /* background-color: aqua; */
     }
@@ -1000,21 +825,19 @@
         .hd--conteiner--title{
             height: 30%;
             width: 1440px; 
+            padding: 0rem 10rem;
             margin: -6rem auto 2rem auto;
             
             /* background-color: rgb(183, 24, 141); */
         }
             .hd--title{
                 /* justify-self: flex-end; */
-                height: 100%; width: 100%!important; 
-                margin: 0% auto; padding: 1rem 6rem;
+                height: 100%; width: 100%; margin: 0%;
+                padding: 1rem 0rem;
 
-                display: flex; flex-flow: column wrap; 
-                justify-content: center; align-items: center; align-content: center;
-
-                line-height: 75px!important;
-                font-size: 70px!important;
-                letter-spacing: 2px;
+                line-height: 95px!important;
+                font-size: 80px!important;
+                letter-spacing: 1.5px;
                 /* background-color: rgb(56, 183, 24); */
             }
 
@@ -1023,18 +846,17 @@
         .hd--conteiner--servicios{ 
             /* border: 1px solid red;     */
 
-            height: 23%;  width: 1400px; 
-            margin: 0% auto 3rem auto;
+            height: 23%; width: 1440px;
+            padding: 0rem 5rem;
+            margin: 0% auto 5rem auto;
                 
         }
             .hd--items{
                 height: 100%; width: 100%; 
                 padding: 0rem 1rem 0rem 1rem; margin: auto; 
                 border-width: 2px;
-
-                display: flex; flex-flow: column; justify-content: center;
                 
-                font-size: 18px;
+                font-size: 24px;
                 letter-spacing: 0.7px;
             }
 
@@ -1042,42 +864,40 @@
 
     .hd--conteiner--btns{
         /* border: 1px solid rgb(255, 111, 0); */
-        width: 1440px; 
+        width: 100%;
         margin: 0rem auto;
-        
-        display: flex; flex-flow: row wrap; justify-content: center;
-        
-    }                                          
 
+        
+    }
         .hd--btn{
-            box-sizing: border-box;
-            display: inline-block;
-            height: 3rem!important; width: 17.9rem; 
+            
+            height: 4rem; width: 22.5rem; 
             /* padding: 0.9rem 1.5rem;  */
-            border: none; margin: 1rem 0.5rem 1rem 0.5rem;
+            border: none; margin: 1rem 1.1rem ;
             border-radius: 5px;
-
-            font-size: 18px; letter-spacing: 0.5px;
+            font-size: 22px; letter-spacing: 0.5px;
         } 
 
+                                                    
 
 }
-
-
-
-
 
 /**PANTALLAS LARGE VERTICALES*/
 @media (min-width: 1484px) and (min-height: 1500px) {
 
+.main{
+    /* position: relative; */
+    height: 55rem!important; width: 100%!important;
+}
+
 .main::after{
 
     position: absolute; 
-    bottom: -2.8%!important; left: 50%;
-    height: 6.5rem; width: 5px;
+    top: 53rem!important; left: 50%;
+    height: 5rem; width: 5px;
     
 }
-   
+    
     .nav__row{
         box-sizing: border-box;
         height: 100%; width: 1440px ; 
@@ -1091,26 +911,22 @@
         
     
         /* background-color: rgb(0, 21, 255); */
-       
+        
     }
-       
+        
             
-                .nav-items{
-                    height: 100%; width: 100%; 
-                    /* margin: 5px 5px 5px 5px; */
-
-                    display: flex; flex-direction: column; 
-                    justify-content: center; align-items: center;
-                
-                    /* background-color: rgb(255, 247, 0); */
-                    font-size: 24px!important;
-                    letter-spacing: 1.2px;
-                }
+        .nav-items{
+            height: 100%; width: 100%; 
+            /* margin: 5px 5px 5px 5px; */
+        
+            /* background-color: rgb(255, 247, 0); */
+            font-size: 20px!important;
+            letter-spacing: 1.2px;
+        }
 /**----------------------------- P O R T A D A -----------------------*/
 
     .hd--content-position{ 
         height: 100%; width: 100%;
-        display: flex; flex-flow: column wrap; justify-content: center;
     
         /* background-color: aqua; */
     }
@@ -1119,7 +935,8 @@
 
         .hd--conteiner--title{
             height: 30%;
-            width: 75%; 
+            width: 1440px;
+            padding: 0rem 15rem; 
             margin: -6rem auto 2rem auto;
             
             /* background-color: rgb(183, 24, 141); */
@@ -1129,11 +946,8 @@
                 height: 100%; width: 100%; margin: 0%;
                 padding: 1rem 6rem;
 
-                display: flex; flex-flow: column wrap; 
-                justify-content: center; align-items: center; align-content: center;
-
-                line-height: 69px!important;
-                font-size: 50px;
+                line-height: 73px!important;
+                font-size: 60px!important;
                 letter-spacing: 1.5px;
                 /* background-color: rgb(56, 183, 24); */
             }
@@ -1143,7 +957,8 @@
         .hd--conteiner--servicios{ 
             /* border: 1px solid red;     */
 
-            height: 23%; width: 75%;
+            height: 23%; width: 1440px;
+            padding: 0rem 0rem;
             margin: 0% auto 3rem auto;
                 
         }
@@ -1152,7 +967,7 @@
                 padding: 0rem 1rem 0rem 1rem; margin: auto; 
                 border-width: 2px;
 
-                display: flex; flex-flow: column; justify-content: center;
+        
                 
                 font-size: 20px;
                 letter-spacing: 0.7px;
@@ -1165,22 +980,33 @@
         width: 100%;
         margin-top: 0rem;
         
-        display: flex; flex-flow: row wrap; justify-content: center;
         
     }
-                                                  
+    .hd--btn{
+            
+        height: 3.8rem; width: 18.5rem; 
+        /* padding: 0.9rem 1.5rem;  */
+        border: none; margin: 1rem 1.1rem ;
+        border-radius: 5px;
+        font-size: 20px; letter-spacing: 0.5px;
+    } 
+                                        
 
 }
 
 
 
 
-@media (max-width: 1484px) and (min-height: 450px) {
-
+@media (max-width: 1484px) and (max-height: 539px) {
+.main{
+    /* position: relative; */
+    height: 35rem!important; width: 100%!important;
+}
 
 .main::after{
+    display: block;
     position: absolute; 
-    bottom: -6.3%!important; left: 50%;
+    top: 33.6rem!important; left: 50%;
     height: 3rem; width: 3.2px;
     
 }
@@ -1884,7 +1710,116 @@
 
 }
 
+@media (max-width: 1484px) and (min-height: 1400px) {
 
+.main{
+    /* position: relative; */
+    height: 55rem!important; width: 100%!important;
+}
+
+.main::after{
+
+    position: absolute; 
+    top: 53rem!important; left: 50%;
+    height: 6.5rem; width: 5px;
+    
+}
+    
+    .nav__row{
+        box-sizing: border-box;
+        height: 100%; width: 1440px ; 
+        padding: 0rem 2rem 0rem 3rem; 
+        border:none; margin: 0% 0% 0% 0%;
+        
+        box-sizing: border-box;
+        
+        display: flex; flex-flow: row nowrap; 
+        justify-content: space-between ; align-items: center;
+        
+    
+        /* background-color: rgb(0, 21, 255); */
+        
+    }
+        
+            
+                .nav-items{
+                    height: 100%; width: 100%; 
+                    /* margin: 5px 5px 5px 5px; */
+
+                    display: flex; flex-direction: column; 
+                    justify-content: center; align-items: center;
+                
+                    /* background-color: rgb(255, 247, 0); */
+                    font-size: 20px!important;
+                    letter-spacing: 1.2px;
+                }
+/**----------------------------- P O R T A D A -----------------------*/
+
+    .hd--content-position{ 
+        height: 100%; width: 100%;
+        display: flex; flex-flow: column wrap; justify-content: center;
+    
+        /* background-color: aqua; */
+    }
+
+    /**------------- T I T L E ------------------------*/
+
+        .hd--conteiner--title{
+            height: 30%;
+            width: 75%; 
+            margin: -6rem auto 2rem auto;
+            
+            /* background-color: rgb(183, 24, 141); */
+        }
+            .hd--title{
+                /* justify-self: flex-end; */
+                height: 100%; width: 100%; margin: 0%;
+                padding: 1rem 6rem;
+
+                display: flex; flex-flow: column wrap; 
+                justify-content: center; align-items: center; align-content: center;
+
+                line-height: 69px!important;
+                font-size: 50px;
+                letter-spacing: 1.5px;
+                /* background-color: rgb(56, 183, 24); */
+            }
+
+/**--------------- S E R V I C I O S  -----------------------------------*/
+
+        .hd--conteiner--servicios{ 
+            /* border: 1px solid red;     */
+
+            height: 23%; width: 75%;
+            margin: 0% auto 3rem auto;
+                
+        }
+            .hd--items{
+                height: 100%; width: 100%; 
+                padding: 0rem 1rem 0rem 1rem; margin: auto; 
+                border-width: 2px;
+
+                display: flex; flex-flow: column; justify-content: center;
+                
+                font-size: 20px;
+                letter-spacing: 0.7px;
+            }
+
+/**--------------- B T N S  C O N T A C T O   -----------------------------------*/   
+
+    .hd--conteiner--btns{
+        /* border: 1px solid rgb(255, 111, 0); */
+        width: 100%;
+        margin-top: 0rem;
+        
+        display: flex; flex-flow: row wrap; justify-content: center;
+        
+    }
+                                                    
+
+}
+
+    
 
 
 @media (max-width: 1368px) and (max-height: 1380px) {
@@ -11079,6 +11014,8 @@
         font-size: 16px;
         letter-spacing: 0.7px; 
     }
+
+ 
 /**----------------- B T N S  CO N T A C T O ---------------------- */
 
     .hd--conteiner--btns{
@@ -11120,8 +11057,6 @@
     height: 4.3rem; width: 3.5px;
     border-radius: 1.2px;
     display: none;
-
-    /* border-bottom: 66vh #2a02375f solid;   */
     
 }
     .nav{
@@ -11136,7 +11071,7 @@
         display: flex; flex-flow: row nowrap; 
         justify-content: space-between ; align-items: center;
 
-        /* background-color: rgb(171, 6, 146);  */        
+        /* background-color: rgb(171, 6, 146);          */
  
     }
     .nav__row{
@@ -11259,6 +11194,15 @@
         font-size: 16px;
         letter-spacing: 0.7px; 
     }
+
+    .hd--items--8{
+        border: none; 
+        display: flex; flex-direction: column; justify-content: center; align-items: center;
+        /* border-right: 1px var(--whiteDarck) solid;    */
+ 
+    }
+
+
 /**----------------- B T N S  CO N T A C T O ---------------------- */
 
     .hd--conteiner--btns{
@@ -12657,7 +12601,7 @@
             /* display: none; */
         }
             .nav-toggle--item{
-                height: 3.4rem; border: none;
+                height: 3.2rem; border: none;
                 filter: invert(96%);
             
             }
