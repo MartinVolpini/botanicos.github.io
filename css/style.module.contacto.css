@@ -113,9 +113,11 @@
             }
 
           
-            .form--inputs:focus {  
+            .form--inputs:focus, .form--input:active, .form--input:hover {  
                 outline: none;
+                background: transparent;
             }
+
             .form--inputs::placeholder{
                 /* padding-left: 1rem; */ 
                 box-sizing: content-box;
@@ -124,9 +126,6 @@
                 
                 color: var( --whiteDarck );
                 font-size: 14px;
-            }
-            .form--input:active{
-                border: none;
             }
 
             /** T E X T   T A R E A*/
@@ -137,8 +136,10 @@
                 
             }
             
-            .textarea::placeholder , .textarea:focus{
-                padding-top: 10px; 
+            .textarea::placeholder , .textarea:focus, .textarea:active, .textarea:hover{
+                /* padding-top: 10px;  */
+                outline: none;
+                background: transparent;
             }
 
             /** B T N   S U B M I T */
@@ -1035,9 +1036,11 @@
 
                 font-size: 16px;
                 /* background-color: var( --grayLight );  */
+                background: transparent;
 
             }
 
+          
 
             .form--inputs::placeholder{
                 /* padding-left: 1rem; */ 

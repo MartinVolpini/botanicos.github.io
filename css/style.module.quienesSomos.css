@@ -72,10 +72,11 @@
                 display: block;
                 text-align: left;
 
-                color: var( --greenDarck2 );
+                /* color: var( --greenDarck2 ); */
                 /* color: var( --color-opacity ); */
                 /* color: var( --greenLight2 ); */
                 /* color: var( --orange ); */
+                color: var( --green );
 
 
 
@@ -100,11 +101,13 @@
                 display: block; 
 
                 border-radius: 3px;
-                background-color: var( --greenDarck2 );
+                /* background-color: var( --greenDarck2 ); */
                 /* background-color: var( --color-opacity ); */
                 /* background-color: var( --greenLight2 ); */
                 /* background-color: var( --orange ); */
                 /* background-color: var( --black ); */
+                background-color: var( --green );
+                
 
 
 
@@ -118,7 +121,8 @@
             padding: 1rem 1rem;
 
             display: flex; flex-direction: column;
-            justify-content: center; align-content: center; align-items: center;
+            justify-content: center; 
+            align-content: center; align-items: center;
 
             /* border: solid 2px red; */
         }
@@ -161,7 +165,8 @@
                 padding: 0%; border: none; margin: 0rem 1.5rem 0rem 0rem;
 
                 display: flex; flex-direction: row wrap;
-                justify-content: center; align-content: center; align-items: center;
+                justify-content: center; 
+                align-content: center; align-items: center;
 
                 
             }
@@ -199,10 +204,10 @@
                     border-radius: 3px;
                     color: var( --white ) ;
                     /* color: var( --black ); */
-                    background-color: var( --greenDarck2 );
+                    /* background-color: var( --greenDarck2 ); */
                     /* background-color: var( --greenLight2 ); */
                     /* background-color: var( --orange ); */
-                    /* background-color: var( --green ); */
+                    background-color: var( --green );
 
                     /* background-color: var( --color-opacity ); */
 
@@ -1872,7 +1877,8 @@
         padding: 0%;
     
         display: flex; flex-flow: column; 
-        justify-content: space-between; align-items: center; align-content: center;
+        justify-content: space-between; 
+        align-items: center; align-content: center;
 
         /* border: solid 2px rgb(71, 67, 59); */
     }
