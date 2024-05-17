@@ -135,7 +135,10 @@
                 resize: none; 
                 
             }
-            
+            .textarea::placeholder{
+                padding-top: 1rem;
+    
+            }
             .textarea::placeholder , .textarea:focus, .textarea:active, .textarea:hover{
                 /* padding-top: 10px;  */
                 outline: none;
