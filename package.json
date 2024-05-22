@@ -1,0 +1,27 @@
+{
+  "name": "botanicos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-dev ./backend/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinVolpini/botanicoss.github.io.git"
+  },
+  "author": "Martin Volpini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinVolpini/botanicoss.github.io/issues"
+  },
+  "homepage": "https://github.com/MartinVolpini/botanicoss.github.io#readme",
+  "dependencies": {
+    "color": "^4.2.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-dev": "^8.0.0",
+    "nodemailer": "^6.9.13"
+  }
+}
