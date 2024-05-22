@@ -4,6 +4,7 @@ const colors  = require("colors");
 const nodemailer = require("nodemailer");
 // const { send } = require("node-dev/lib/ipc");
 
+
 const app = express();
 app.set('PORT',  4200)
 
@@ -18,10 +19,12 @@ app.post('/email', (req, res)=>{
     let _valor1 = req.body._nombre; let _valor2 = req.body._email; 
     let _valor3 = req.body._message;
 
-    console.log( _valor1.red, _valor2.red, _valor3.red )
+    // console.log( _valor1.red, _valor2.red, _valor3.red )
 
     async function main() {
         let testAccount = await nodemailer.createTestAccount();
+
+        
 
         let transporter = nodemailer.createTransport({
             host: "smtp.gmail.com",
